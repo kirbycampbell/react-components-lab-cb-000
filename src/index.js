@@ -14,7 +14,7 @@ export class OlderCoaster extends Component {
   // this function should return the JSX we want the DOM to render
    render() {
      return (
-       <div>
+       <div className="oldercoaster">
        <p>Two grannies having the time of their life!</p>
        <p>Passengers:</p>
       <ul>
@@ -23,7 +23,6 @@ export class OlderCoaster extends Component {
       </ul></div>
      )
    }
-
 }
 
 export class InFrontOfYou extends Component {
