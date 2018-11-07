@@ -27,7 +27,13 @@ export class OlderCoaster extends Component {
 }
 
 export class InFrontOfYou extends Component {
-  // your code here
+  render() {
+    return (
+      <div>
+        <p>You shouldn`'`t look too far.</p>
+      </div>
+    )
+  }
 }
 
 export class ButcherShop extends Component {
