@@ -31,7 +31,7 @@ export class InFrontOfYou extends Component {
     return (
       <div>
         <p>
-          You shouldn`'`t look too far.
+          You shouldnt look too far.
         </p>
         <p>
           Sometimes, the solution is right in front of you.
