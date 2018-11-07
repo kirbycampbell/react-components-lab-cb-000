@@ -30,7 +30,7 @@ export class InFrontOfYou extends Component {
   render() {
     return (
       <div>
-        <p>You shouldnt look too far.</p>
+        <p>You shouldn't look too far.</p>
         <p>Sometimes, the solution is right in front of you.</p>
       </div>
     )
@@ -39,7 +39,7 @@ export class InFrontOfYou extends Component {
 
 export class ButcherShop extends Component {
   render() {
-    const products = BUTCHER_PRODUCTS.map((p, idx) => (<li key={idx}>{p}</li>))    
+    const products = BUTCHER_PRODUCTS.map((p, idx) => (<li key={idx}>{p}</li>))
     return (
       <div className="butcher-shop">
       <p>Hello! We have the following products for sale today:</p>
