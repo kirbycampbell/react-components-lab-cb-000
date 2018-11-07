@@ -38,11 +38,14 @@ export class InFrontOfYou extends Component {
 }
 
 export class ButcherShop extends Component {
-  //const products = [<li>{BUTCHER_PRODUCTS[0]}</li><li>{BUTCHER_PRODUCTS[1]}</li><li>{BUTCHER_PRODUCTS[2]}</li><li>{BUTCHER_PRODUCTS[3]}</li>]
   render() {
+  //const products = [<li>{BUTCHER_PRODUCTS[0]}</li><li>{BUTCHER_PRODUCTS[1]}</li><li>{BUTCHER_PRODUCTS[2]}</li><li>{BUTCHER_PRODUCTS[3]}</li>]
     return (
-      <div>
-        { products }
+      <div className="butcher-shop">
+      <p>Hello! We have the following products for sale today:</p>
+        <ul>
+          { products }
+        </ul>
       </div>
     )
   }
